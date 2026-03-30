@@ -413,7 +413,7 @@ export default function App() {
             <div style={{fontSize:22,fontWeight:900,letterSpacing:"-0.02em",color:"#e0e0f8"}}>바닥 투자 시스템</div>
           </div>
           <div style={{textAlign:"right"}}>
-            <div style={{fontFamily:"monospace",fontSize:10,color:"#f5c542",background:"rgba(245,197,66,0.07)",border:"1px solid rgba(245,197,66,0.2)",padding:"3px 8px",borderRadius:3,marginBottom:3}}>260329</div>
+            <div style={{fontFamily:"monospace",fontSize:10,color:"#f5c542",background:"rgba(245,197,66,0.07)",border:"1px solid rgba(245,197,66,0.2)",padding:"3px 8px",borderRadius:3,marginBottom:3}}>260330</div>
             <div style={{fontFamily:"monospace",fontSize:9,color:"#333355"}}>환율 {FX_RATE.toLocaleString()}원</div>
           </div>
         </div>
