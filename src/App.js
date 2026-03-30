@@ -218,7 +218,7 @@ function Tab1() {
 
       {/* FINAL OUTPUT */}
       <div style={{background:isOverride?"rgba(255,59,59,0.08)":"rgba(0,230,118,0.05)",border:`1px solid ${isOverride?"rgba(255,59,59,0.25)":"rgba(0,230,118,0.15)"}`,borderRadius:10,padding:"13px 14px",marginBottom:12}}>
-        <div style={{fontSize:9,fontFamily:"monospace",color:"#444460",letterSpacing:"0.15em",marginBottom:10}}>── FINAL OUTPUT (260329 기준)</div>
+        <div style={{fontSize:9,fontFamily:"monospace",color:"#444460",letterSpacing:"0.15em",marginBottom:10}}>── FINAL OUTPUT </div>
         <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:7,marginBottom:10}}>
           {[
             {label:"실행 여부",  val:isOverride?"즉시 실행":"조건부 실행", col:isOverride?"#ff3b3b":"#00e676"},
@@ -269,7 +269,7 @@ function Tab2() {
       {/* 매크로 점수 */}
       <div style={{background:"#0c0c18",border:"1px solid #1a1a2e",borderRadius:12,padding:16,marginBottom:12,position:"relative",overflow:"hidden"}}>
         <div style={{position:"absolute",top:0,left:0,right:0,height:2,background:"linear-gradient(90deg,#ff3b3b,#f5c542,transparent)"}}/>
-        <div style={{fontSize:9,fontFamily:"monospace",color:"#333355",letterSpacing:"0.15em",marginBottom:12}}>── 매크로 점수 (260329)</div>
+        <div style={{fontSize:9,fontFamily:"monospace",color:"#333355",letterSpacing:"0.15em",marginBottom:12}}>── 매크로 점수 </div>
         <div style={{display:"flex",gap:14,alignItems:"center",marginBottom:12}}>
           <Ring score={TOTAL} max={5}/>
           <div>
